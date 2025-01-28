@@ -1,0 +1,27 @@
+h1 {
+    color: #f0320a;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;;
+    background-color: #212121;
+    color: white;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 50%;
+    cursor: pointer;
+    align-items: center;
+}
+
+li:hover {
+    color: #f0320a;
+    transition: 0.5s;
+    text-decoration: underline;
+}
