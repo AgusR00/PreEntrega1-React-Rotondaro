@@ -8,8 +8,19 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     text-align: center;
-    width: 400px;
+    width: 500px;
     height: auto;
+    color: white;
+}
 
+.ProductImage {
+    height: 400px;
+    width: 350px;
+}
+
+.ItemDetailContainer {
+    display: flex;
+    justify-content: center;
+    height: auto;
 }
 
