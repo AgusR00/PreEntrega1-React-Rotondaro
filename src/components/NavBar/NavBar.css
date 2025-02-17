@@ -1,27 +1,40 @@
-h1 {
-    color: #f0320a;
-    font-size: 2rem;
-    margin-left: 1rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;;
+.NavBar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
     background-color: #212121;
     color: white;
-    align-items: center;
-}
-ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    width: 50%;
-    cursor: pointer;
-    align-items: center;
+    padding: 30px 90px;
 }
 
-li:hover {
-    color: #f0320a;
-    transition: 0.5s;
-    text-decoration: underline;
+h1 {
+    color: rgb(231, 97, 97);
 }
+
+.NavBrand {
+    text-decoration: none;
+}
+
+.Categories {
+    color: rgb(231, 97, 97);
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.Option {
+    text-decoration: none;
+    color: white;
+}
+
+.Option:hover {
+    color: rgb(248, 73, 73);
+    transition: 0.5s;
+}
+
+.ActiveOption {
+    text-decoration: none;
+    color: rgb(248, 73, 73);
+}
+
