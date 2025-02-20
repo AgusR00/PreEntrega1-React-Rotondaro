@@ -106,7 +106,80 @@ const products = [
         stock: 20,
         category: 'Auriculares',
         description: 'Los Samsung Galaxy Buds 3 Pro (también conocidos como Galaxy Buds Pro) son unos auriculares inalámbricos de gama alta diseñados para ofrecer una experiencia de sonido premium y confort.'
+    },
+    {
+        id: '13',
+        name: 'Monitor Gamer Samsung 27"',
+        img: 'https://images.fravega.com/f500/393cba5a66fe2d29273ed1e7244f3e60.jpg',
+        price: 250000,
+        stock: 10,
+        category: 'Monitores',
+        description: 'El monitor gamer Samsung 27" es una excelente opción para jugadores que buscan una experiencia inmersiva y fluida.'
+    },
+    {
+        id: '14',
+        name: 'Monitor Gamer LG UltraGear 24GS60F-B con pantalla de 24"',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_680013-MLU78590458677_082024-O.webp',
+        price: 230000,
+        stock: 1,
+        category: 'Monitores',
+        description: 'El monitor gamer LG UltraGear 24" es una opción potente para jugadores exigentes, con características avanzadas para una experiencia fluida y responsiva.'
+    },
+    {
+        id: '15',
+        name: 'Samsung Galaxy Odyssey Neo G9',
+        img: 'https://media.es.wired.com/photos/63b59dd32984c2acd03054a8/16:9/w_1280,c_limit/Samsung-%20Odyssey-Neo-G9-Gaming-Monitor-G95NC.png',
+        price: 2550000,
+        stock: 2,
+        category: 'Monitores',
+        description: 'El Samsung Odyssey Neo G9 es un monitor gamer ultra premium diseñado para ofrecer una experiencia envolvente y de alto rendimiento.'
+    },
+    {
+        id: '16',
+        name: 'Monitor Curvo Gamer 27"',
+        img: 'https://compucordoba.com.ar/img/Public/1078/64159-producto-monitor-curvo-27-gigabyte-2.jpg',
+        price: 350000,
+        stock: 9,
+        category: 'Monitores',
+        description: 'El monitor curvo gamer Gigabyte 27" es una excelente opción para jugadores que buscan una experiencia inmersiva y fluida.'
+    },
+    {
+        id: '17',
+        name: 'Monitor Gamer 24 Asus Tuf Gaming Full Hd 180hz',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_701727-MLA81358790559_122024-O.webp',
+        price: 380000,
+        stock: 6,
+        category: 'Monitores',
+        description: 'El monitor ASUS TUF Gaming 24" (VG249QM o VG248QG) es una opción ideal para jugadores que buscan una experiencia fluida y rápida.'
+    },
+    {
+        id: '18',
+        name: 'Cargador Samsung 45w (sin cable)',
+        img: 'https://images.samsung.com/is/image/samsung/p6pim/ar/ep-t4510xbsgar/gallery/ar-45w-power-adapter-ep-t4510-ep-t4510xbsgar-531990642?$684_547_PNG$',
+        price: 80000,
+        stock: 10,
+        category: 'Cargadores',
+        description: 'El cargador Samsung de 45W es un adaptador de carga rápida compatible con varios dispositivos Samsung, incluyendo smartphones, tablets y algunos laptops.'
+    },
+    {
+        id: '19',
+        name: 'Cargador Samsung 25w (sin cable)',
+        img: 'https://tienda.personal.com.ar/images/720/webp/Cargador_Samsung_Carga_Rapida_25_W_Cable_0fa8a97e01.png',
+        price: 50000,
+        stock: 20,
+        category: 'Cargadores',
+        description: 'El cargador Samsung de 25W es un adaptador de carga rápida ideal para una amplia gama de dispositivos Galaxy.'
+    },
+    {
+        id: '20',
+        name: 'Cargador 65w Soul',
+        img: 'https://acdn.mitiendanube.com/stores/001/128/573/products/7bea643c-fd5c-4f17-a8cf-f2ac77e79b3c-00a1eb8bfdb28d73b017304762482452-1024-1024.jpg',
+        price: 120000,
+        stock: 5,
+        category: 'Cargadores',
+        description: 'El cargador Soul de 65W es un adaptador de carga rápida diseñado para proporcionar una carga eficiente y segura a una variedad de dispositivos.'
     }
+    
 ]
 
 const getProducts = () => {

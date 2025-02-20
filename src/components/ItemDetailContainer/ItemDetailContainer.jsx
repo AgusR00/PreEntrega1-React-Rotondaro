@@ -1,7 +1,6 @@
 import './ItemDetailContainer.css';
 import { useState, useEffect } from 'react';
 import { getProductById } from '../../asyncMock';
-import Item from '../Item/Item';
 import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = () => {
@@ -32,7 +31,7 @@ const ItemDetailContainer = () => {
             ) : (
                 <p>Cargando producto...</p>
             )}
-        </div>
+        </div>            
     );
 }
 
