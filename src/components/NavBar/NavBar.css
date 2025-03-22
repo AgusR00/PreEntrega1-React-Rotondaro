@@ -1,44 +1,33 @@
-.NavBar {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
+.menu-container {
+    display: flex;
+    justify-content: space-between;
     background-color: #212121;
     color: white;
     padding: 30px 90px;
+}
+
+.menu-container a {
+    text-decoration: none;
 }
 
 h1 {
     color: rgb(231, 97, 97);
 }
 
-.NavBrand {
-    text-decoration: none;
-}
-
-.Categories {
+.menu {
+    display: flex;
+    align-items: center;
     color: rgb(231, 97, 97);
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: space-around;
+    gap: 8rem;
     font-size: 18px;
+    list-style: none;
 }
 
-.Option {
-    text-decoration: none;
+.menu-link {
     color: white;
 }
 
-.Option:hover {
+.menu-link:hover {
     color: rgb(248, 73, 73);
     transition: 0.5s;
 }
-
-.ActiveOption {
-    text-decoration: none;
-    color: rgb(248, 73, 73);
-}
-
-.CartContainer {
-    cursor: pointer;
-}
-

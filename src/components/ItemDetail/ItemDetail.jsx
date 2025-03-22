@@ -1,56 +1,19 @@
-import './ItemDetail.css';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import ItemCount from '../ItemCount/ItemCount';
+import "./ItemDetail.css"
 
-const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
-    const [quantityAdded, setQuantityAdded] = useState(0)
-
-    const handleOnAdd = (quantity) => {
-        setQuantityAdded(quantity)
-
-
-        const item = {
-            id, name, price
-        }
-
-        addItem(item, quantity)
-    }
-
-
-    return (
-        <article className='CardItem'>
-            <header className='Header'>
-                <h2 className='ItemHeader'>
-                    {name}
-                </h2>
-            </header>
-            <picture>
-                <img src={img} alt={name} className='ItemImg' />
-            </picture>
-
-            <section>
-                <p className='Info'>
-                    categoria: {category}
-                </p>
-                <p className='Info'>
-                    Descripción: {description}
-                </p>
-                <p className='Info'>
-                    Precio: ${price}
-                </p>
-            </section>
-            <footer className='ItemFooter'>
-                {
-                    quantityAdded > 0 ? (
-                        <Link to='/cart' className='Option'>Terminar Compra</Link>
-                    ) : (
-                        <ItemCount initial={1} stock={stock} onAdd={handleOnAdd} />
-                    )
-                }
-            </footer>
-        </article>
-    )
+const ItemDetail = ( {item} ) => {
+  return (
+    <div className="container">
+        <div className="producto-detalle">
+        <img src={item.img} alt={item.name} />
+        <div>
+            <h3 className="titulo">{item.name}</h3>
+            <p className="descripcion">{item.description}</p>
+            <p className="categoria">Categoria: {item.category}</p>
+            <p className="precio">{item.price}</p>
+        </div>
+        </div>
+    </div>
+  )
 }
 
-export default ItemDetail;
+export default ItemDetail

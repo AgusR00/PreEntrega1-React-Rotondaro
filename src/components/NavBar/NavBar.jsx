@@ -1,24 +1,28 @@
-import "./NavBar.css";
-import CartWidget from "../CartWidget/CartWidget";
-import { NavLink, Link } from "react-router-dom";
+import React from 'react'
+import './NavBar.css'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <nav className="NavBar">
-            <Link to="/" className="NavBrand">
-                <h1>Electronic-Mania</h1>
-            </Link>
-            <div className="Categories">
-                <NavLink to={'/category/Celulares'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Celulares</NavLink>
-                <NavLink to={'/category/Auriculares'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Auriculares</NavLink>
-                <NavLink to={'/category/Monitores'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Monitores</NavLink>
-                <NavLink to={'/category/Cargadores'} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Cargadores</NavLink>
+        <nav className='navbar'>
+
+
+
+            <div className='menu-container'>
+                <Link to='/' className='logo'><h1>Electro-Mania</h1></Link>
+                <ul className='menu'>
+                    <li><Link to="/" className='menu-link'>Inicio</Link></li>
+                    <li><Link to="/productos/Celulares" className='menu-link'>Celulares</Link></li>
+                    <li><Link to="/productos/Auriculares" className='menu-link'>Auriculares</Link></li>
+                    <li><Link to="/productos/Monitores" className='menu-link'>Monitores</Link></li>
+                    <li><Link to="/productos/Cargadores" className='menu-link'>Cargadores</Link></li>
+                </ul>
             </div>
-            <div className="CartContainer">
-                <CartWidget />
-            </div>
+
+
+
         </nav>
-    );
+    )
 }
 
-export default NavBar;
+export default NavBar
