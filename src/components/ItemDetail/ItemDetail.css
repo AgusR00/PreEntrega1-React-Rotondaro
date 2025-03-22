@@ -1,20 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
 .producto-detalle {
-    padding-block: 2rem;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 500px;
+    height: 4%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-align: center ;
+    padding: 20px;
 }
 
 .producto-detalle img {
-    width: 300px;
-}
-
-.producto-detalle-info h3 {
-    font-size: 2rem;
+    width: 250px;
+    margin-top: 20px;
 }
 
 .categoria {
-    font-size: .8rem;
+    font-size: 1rem;
     color: #424242;
     margin-top: 1rem;
 }
