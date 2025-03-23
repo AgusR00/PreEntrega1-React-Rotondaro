@@ -1,7 +1,11 @@
-.cart-widget {
+.carrito {
     position: relative;
     display: inline-block;
+    justify-content: center;
+    align-items: center;
     font-size: 35px;
+    color: white !important;
+    cursor: pointer;
 }
 
 .cart-number {
