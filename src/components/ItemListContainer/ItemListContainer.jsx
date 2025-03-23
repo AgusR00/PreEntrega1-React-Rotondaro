@@ -12,9 +12,6 @@ const ItemListContainer = () => {
 
     const category = useParams().category;
 
-    console.log('Categoria seleccionada:', category)
-
-
     useEffect(() => {
 
         const productosRef = collection(db, 'productos')
@@ -25,7 +22,6 @@ const ItemListContainer = () => {
             .then((resp) => {
                 
                 setProductos(
-
                     resp.docs.map((doc) => {
                         return { ...doc.data(), id: doc.id }
                     })
