@@ -1,5 +1,3 @@
-"use client"
-
 import { useEffect, useState } from "react"
 import ItemList from "../ItemList/ItemList"
 import { useParams } from "react-router-dom"
