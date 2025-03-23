@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contacto from './components/Contacto/Contacto';
 import { CartProvider } from './context/CartContext';
 import Carrito from './components/Carrito/Carrito';
+import CheckOut from './components/CheckOut/CheckOut';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/item/:id" element={<ItemDetailContainer />} /> {/*Busca la información de un item por su id*/}
             <Route path='/contacto' element={<Contacto />} />
             <Route path='/carrito' element={<Carrito />} />
+            <Route path='/checkout' element={<CheckOut />} />
           </Routes>
 
         </BrowserRouter>
