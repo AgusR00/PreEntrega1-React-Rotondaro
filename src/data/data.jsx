@@ -2,8 +2,8 @@ const productos = [
     {
         id: 1,
         name: 'Samsung Galaxy S23 Ultra',
-        price: 1050000,
         img: 'https://http2.mlstatic.com/D_NQ_NP_879579-MLA73065587208_112023-O.webp',
+        price: 1050000,
         stock: 5,
         category: 'Celulares',
         description: 'El Samsung Galaxy S23 Ultra es un teléfono inteligente Android de gama alta fabricado por Samsung Electronics como parte de la serie Samsung Galaxy S. Fue anunciado el 9 de febrero de 2023 y se lanzó el 2 de marzo de 2023. Es el sucesor del Samsung Galaxy S22 Ultra.'
@@ -11,8 +11,8 @@ const productos = [
     {
         id: 2,
         name: 'Samsung Galaxy S24 Ultra',
-        price: 2800000,
         img: 'https://http2.mlstatic.com/D_Q_NP_906402-MLA78898729191_092024-O.webp',
+        price: 2800000,
         stock: 9,
         category: 'Celulares',
         description: 'El Samsung Galaxy S24 Ultra es el modelo más avanzado de la serie S24, lanzado en enero de 2024. Destaca por su pantalla Dynamic AMOLED 2X de 6,8 pulgadas con resolución QHD+ y tasa de refresco de 120 Hz. Está construido con un marco de Titanio para mayor resistencia y un diseño más refinado.'
@@ -24,7 +24,7 @@ const productos = [
         img: 'https://riiing.com.ar/wp-content/uploads/2025/02/1_Img-de-producto_PA3_Titaniumgray-2400x2400-1-1024x1024.jpg',
         stock: 10,
         category: 'Celulares',
-        description: 'El Samsung Galaxy S25 Ultra es el último buque insignia de la compañía surcoreana, presentado oficialmente el 22 de enero de 2025. Este dispositivo destaca por su pantalla Dynamic AMOLED 2X de 6,9 pulgadas con resolución QHD+, tasa de refresco de hasta 120 Hz y un brillo máximo de 2.600 nits, protegida por Corning Gorilla Armor 2. Además, es un 15% más delgado y ligero que su predecesor.'
+        description: 'El Samsung Galaxy S25 Ultra es el último buque insignia de la compañía surcoreana, presentado oficialmente el 22 de enero de 2025. Este dispositivo destaca por su pantalla Dynamic AMOLED 2X de 6,9 pulgadas con resolución QHD+, tasa de refresco de hasta 120 Hz y un brillo máximo de 2.600 nits, protegida por Corning Gorilla Armor 2.'
     },
     {
         id: 4,
@@ -60,7 +60,7 @@ const productos = [
         price: 3800000,
         stock: 2,
         category: 'Celulares',
-        description: 'El iPhone 16 Pro Max es el modelo más avanzado de Apple hasta la fecha, destacando por sus innovaciones en diseño, rendimiento y funcionalidad. Cuenta con una pantalla Dynamic Island de 6.9 pulgadas, chip A18 Bionic, sistema de cámara cuádruple de 64 MP con mejoras en fotografía computacional y grabación de video en calidad cinematográfica. Además, introduce la tecnología de carga solar y un nuevo sistema de reconocimiento facial 3D.'
+        description: 'El iPhone 16 Pro Max es el modelo más avanzado de Apple hasta la fecha, destacando por sus innovaciones en diseño, rendimiento y funcionalidad. Cuenta con una pantalla Dynamic Island de 6.9 pulgadas, chip A18 Bionic, sistema de cámara cuádruple de 64 MP con mejoras en fotografía computacional y grabación de video en calidad cinematográfica.'
     },
     {
         id: 8,
@@ -78,7 +78,7 @@ const productos = [
         price: 650000,
         stock: 12,
         category: 'Celulares',
-        description: 'El Motorola Moto G24 es un smartphone de gama media que destaca por su equilibrio entre rendimiento y precio. Cuenta con una pantalla IPS LCD de 6.8 pulgadas, procesador Snapdragon 680, 4 GB de RAM y 128 GB de almacenamiento. Además, incorpora una cámara triple de 50 MP y una batería de 5000 mAh con carga rápida de 30W.'
+        description: 'El Motorola Moto G24 es un smartphone de gama media que destaca por su equilibrio entre rendimiento y precio. Cuenta con una pantalla IPS LCD de 6.8 pulgadas, procesador Snapdragon 680, 4 GB de RAM y 128 GB de almacenamiento.'
     },
     {
         id: 10,
@@ -100,7 +100,7 @@ const productos = [
     },
     {
         id: 12,
-        name: 'Samsung Galaxy Buds 3 pro',
+        name: 'Samsung Galaxy Buds 3 Pro',
         img: 'https://images.samsung.com/is/image/samsung/p6pim/ar/sm-r630nzaaaro/gallery/ar-galaxy-buds3-pro-r630-sm-r630nzaaaro-544278493?$684_547_PNG$',
         price: 550000,
         stock: 20,
