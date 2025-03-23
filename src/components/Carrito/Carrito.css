@@ -1,0 +1,140 @@
+/* Carrito.css */
+
+.carrito-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.carrito-container .main-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+.main-title-carrito {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: rgb(231, 97, 97);
+}
+
+.items-carrito {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.info-carrito {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    border-left: 4px solid #4CAF50;
+}
+
+.info-carrito:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.info-carrito h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.info-carrito p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.info-carrito .precio-unit {
+    font-weight: normal;
+}
+
+.info-carrito .precio-total {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.info-carrito .cantidad {
+    background-color: #eee;
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.carrito-resumen {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carrito-resumen h2 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.carrito-resumen .precio-total {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 25px;
+}
+
+.carrito-acciones {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-vaciar {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.btn-vaciar:hover {
+    background-color: #ff5252;
+}
+
+.btn-finalizar {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.btn-finalizar:hover {
+    background-color: #45a049;
+}
+
+.carrito-vacio {
+    text-align: center;
+    padding: 40px 0;
+    color: #888;
+    font-size: 20px;
+}
