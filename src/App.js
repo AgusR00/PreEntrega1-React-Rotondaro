@@ -9,18 +9,17 @@ import CheckOut from './components/CheckOut/CheckOut';
 
 function App() {
 
-
-
   return (
     <div className="App">
       <CartProvider>
         <BrowserRouter>
+
           <NavBar />
 
           <Routes>
             <Route path='/' element={<ItemListContainer />} />
             <Route path="/productos/:category" element={<ItemListContainer />} />
-            <Route path="/productos/" element={<ItemListContainer />} />
+            <Route path="/productos" element={<ItemListContainer />} />
             <Route path="/item/:id" element={<ItemDetailContainer />} /> {/*Busca la información de un item por su id*/}
             <Route path='/contacto' element={<Contacto />} />
             <Route path='/carrito' element={<Carrito />} />
