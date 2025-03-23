@@ -3,7 +3,8 @@
     justify-content: space-between;
     background-color: #212121;
     color: white;
-    padding: 30px 90px;
+    padding: 30px 60px;
+    flex-wrap: wrap;
 }
 
 .menu-container a {
@@ -18,7 +19,7 @@ h1 {
     display: flex;
     align-items: center;
     color: rgb(231, 97, 97);
-    gap: 8rem;
+    gap: 5rem;
     font-size: 18px;
     list-style: none;
 }

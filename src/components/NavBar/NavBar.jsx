@@ -16,6 +16,7 @@ const NavBar = () => {
                     <li><Link to="/productos/Auriculares" className='menu-link'>Auriculares</Link></li>
                     <li><Link to="/productos/Monitores" className='menu-link'>Monitores</Link></li>
                     <li><Link to="/productos/Cargadores" className='menu-link'>Cargadores</Link></li>
+                    <li><Link to="/contacto" className='menu-link'>Contacto</Link></li>
                 </ul>
             </div>
 
